@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89EEAF5321445256002527FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EEAF5221445256002527FD /* AppDelegate.swift */; };
+		89EEAF5521445256002527FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EEAF5421445256002527FD /* ViewController.swift */; };
+		89EEAF5821445256002527FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89EEAF5621445256002527FD /* Main.storyboard */; };
+		89EEAF5A21445261002527FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89EEAF5921445261002527FD /* Assets.xcassets */; };
+		89EEAF5D21445261002527FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89EEAF5B21445261002527FD /* LaunchScreen.storyboard */; };
+		89EEAF6821445262002527FD /* PagerTabViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EEAF6721445262002527FD /* PagerTabViewControllerTests.swift */; };
+		89EEAF7321445262002527FD /* PagerTabViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EEAF7221445262002527FD /* PagerTabViewControllerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89EEAF6421445262002527FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89EEAF4721445256002527FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89EEAF4E21445256002527FD;
+			remoteInfo = PagerTabViewController;
+		};
+		89EEAF6F21445262002527FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89EEAF4721445256002527FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89EEAF4E21445256002527FD;
+			remoteInfo = PagerTabViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89EEAF4F21445256002527FD /* PagerTabViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PagerTabViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89EEAF5221445256002527FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89EEAF5421445256002527FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89EEAF5721445256002527FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89EEAF5921445261002527FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89EEAF5C21445261002527FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89EEAF5E21445262002527FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89EEAF6321445262002527FD /* PagerTabViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagerTabViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89EEAF6721445262002527FD /* PagerTabViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerTabViewControllerTests.swift; sourceTree = "<group>"; };
+		89EEAF6921445262002527FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89EEAF6E21445262002527FD /* PagerTabViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagerTabViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89EEAF7221445262002527FD /* PagerTabViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerTabViewControllerUITests.swift; sourceTree = "<group>"; };
+		89EEAF7421445262002527FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89EEAF4C21445256002527FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89EEAF6021445262002527FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89EEAF6B21445262002527FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89EEAF4621445256002527FD = {
+			isa = PBXGroup;
+			children = (
+				89EEAF5121445256002527FD /* PagerTabViewController */,
+				89EEAF6621445262002527FD /* PagerTabViewControllerTests */,
+				89EEAF7121445262002527FD /* PagerTabViewControllerUITests */,
+				89EEAF5021445256002527FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89EEAF5021445256002527FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89EEAF4F21445256002527FD /* PagerTabViewController.app */,
+				89EEAF6321445262002527FD /* PagerTabViewControllerTests.xctest */,
+				89EEAF6E21445262002527FD /* PagerTabViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89EEAF5121445256002527FD /* PagerTabViewController */ = {
+			isa = PBXGroup;
+			children = (
+				89EEAF5221445256002527FD /* AppDelegate.swift */,
+				89EEAF5421445256002527FD /* ViewController.swift */,
+				89EEAF5621445256002527FD /* Main.storyboard */,
+				89EEAF5921445261002527FD /* Assets.xcassets */,
+				89EEAF5B21445261002527FD /* LaunchScreen.storyboard */,
+				89EEAF5E21445262002527FD /* Info.plist */,
+			);
+			path = PagerTabViewController;
+			sourceTree = "<group>";
+		};
+		89EEAF6621445262002527FD /* PagerTabViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				89EEAF6721445262002527FD /* PagerTabViewControllerTests.swift */,
+				89EEAF6921445262002527FD /* Info.plist */,
+			);
+			path = PagerTabViewControllerTests;
+			sourceTree = "<group>";
+		};
+		89EEAF7121445262002527FD /* PagerTabViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89EEAF7221445262002527FD /* PagerTabViewControllerUITests.swift */,
+				89EEAF7421445262002527FD /* Info.plist */,
+			);
+			path = PagerTabViewControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89EEAF4E21445256002527FD /* PagerTabViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89EEAF7721445262002527FD /* Build configuration list for PBXNativeTarget "PagerTabViewController" */;
+			buildPhases = (
+				89EEAF4B21445256002527FD /* Sources */,
+				89EEAF4C21445256002527FD /* Frameworks */,
+				89EEAF4D21445256002527FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PagerTabViewController;
+			productName = PagerTabViewController;
+			productReference = 89EEAF4F21445256002527FD /* PagerTabViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89EEAF6221445262002527FD /* PagerTabViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89EEAF7A21445262002527FD /* Build configuration list for PBXNativeTarget "PagerTabViewControllerTests" */;
+			buildPhases = (
+				89EEAF5F21445262002527FD /* Sources */,
+				89EEAF6021445262002527FD /* Frameworks */,
+				89EEAF6121445262002527FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89EEAF6521445262002527FD /* PBXTargetDependency */,
+			);
+			name = PagerTabViewControllerTests;
+			productName = PagerTabViewControllerTests;
+			productReference = 89EEAF6321445262002527FD /* PagerTabViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89EEAF6D21445262002527FD /* PagerTabViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89EEAF7D21445262002527FD /* Build configuration list for PBXNativeTarget "PagerTabViewControllerUITests" */;
+			buildPhases = (
+				89EEAF6A21445262002527FD /* Sources */,
+				89EEAF6B21445262002527FD /* Frameworks */,
+				89EEAF6C21445262002527FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89EEAF7021445262002527FD /* PBXTargetDependency */,
+			);
+			name = PagerTabViewControllerUITests;
+			productName = PagerTabViewControllerUITests;
+			productReference = 89EEAF6E21445262002527FD /* PagerTabViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89EEAF4721445256002527FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = kashee;
+				TargetAttributes = {
+					89EEAF4E21445256002527FD = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					89EEAF6221445262002527FD = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 89EEAF4E21445256002527FD;
+					};
+					89EEAF6D21445262002527FD = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 89EEAF4E21445256002527FD;
+					};
+				};
+			};
+			buildConfigurationList = 89EEAF4A21445256002527FD /* Build configuration list for PBXProject "PagerTabViewController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89EEAF4621445256002527FD;
+			productRefGroup = 89EEAF5021445256002527FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89EEAF4E21445256002527FD /* PagerTabViewController */,
+				89EEAF6221445262002527FD /* PagerTabViewControllerTests */,
+				89EEAF6D21445262002527FD /* PagerTabViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89EEAF4D21445256002527FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89EEAF5D21445261002527FD /* LaunchScreen.storyboard in Resources */,
+				89EEAF5A21445261002527FD /* Assets.xcassets in Resources */,
+				89EEAF5821445256002527FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89EEAF6121445262002527FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89EEAF6C21445262002527FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89EEAF4B21445256002527FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89EEAF5521445256002527FD /* ViewController.swift in Sources */,
+				89EEAF5321445256002527FD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89EEAF5F21445262002527FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89EEAF6821445262002527FD /* PagerTabViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89EEAF6A21445262002527FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89EEAF7321445262002527FD /* PagerTabViewControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89EEAF6521445262002527FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89EEAF4E21445256002527FD /* PagerTabViewController */;
+			targetProxy = 89EEAF6421445262002527FD /* PBXContainerItemProxy */;
+		};
+		89EEAF7021445262002527FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89EEAF4E21445256002527FD /* PagerTabViewController */;
+			targetProxy = 89EEAF6F21445262002527FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89EEAF5621445256002527FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89EEAF5721445256002527FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89EEAF5B21445261002527FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89EEAF5C21445261002527FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89EEAF7521445262002527FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89EEAF7621445262002527FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89EEAF7821445262002527FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PagerTabViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SBasic.PagerTabViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89EEAF7921445262002527FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PagerTabViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SBasic.PagerTabViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		89EEAF7B21445262002527FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PagerTabViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SBasic.PagerTabViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PagerTabViewController.app/PagerTabViewController";
+			};
+			name = Debug;
+		};
+		89EEAF7C21445262002527FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PagerTabViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SBasic.PagerTabViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PagerTabViewController.app/PagerTabViewController";
+			};
+			name = Release;
+		};
+		89EEAF7E21445262002527FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PagerTabViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SBasic.PagerTabViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PagerTabViewController;
+			};
+			name = Debug;
+		};
+		89EEAF7F21445262002527FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PagerTabViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SBasic.PagerTabViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PagerTabViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89EEAF4A21445256002527FD /* Build configuration list for PBXProject "PagerTabViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89EEAF7521445262002527FD /* Debug */,
+				89EEAF7621445262002527FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89EEAF7721445262002527FD /* Build configuration list for PBXNativeTarget "PagerTabViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89EEAF7821445262002527FD /* Debug */,
+				89EEAF7921445262002527FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89EEAF7A21445262002527FD /* Build configuration list for PBXNativeTarget "PagerTabViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89EEAF7B21445262002527FD /* Debug */,
+				89EEAF7C21445262002527FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89EEAF7D21445262002527FD /* Build configuration list for PBXNativeTarget "PagerTabViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89EEAF7E21445262002527FD /* Debug */,
+				89EEAF7F21445262002527FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89EEAF4721445256002527FD /* Project object */;
+}
